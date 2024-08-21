@@ -1,0 +1,463 @@
+name: shayari_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get:
+  google_fonts: ^4.0.1
+  flutter_svg:
+  share_plus: ^6.3.4
+  widgets_to_image:
+  path_provider:
+  gallery_saver_plus:
+  intl :
+  flutter_hsvcolor_picker:
+  getwidget:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assert/img/
+    - assert/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: font1
+      fonts:
+        - asset: assert/fonts/f1.ttf
+    - family: font2
+      fonts:
+        - asset: assert/fonts/f2.ttf
+    - family: font3
+      fonts:
+        - asset: assert/fonts/f3.ttf
+    - family: font4
+      fonts:
+        - asset: assert/fonts/f4.ttf
+    - family: font5
+      fonts:
+        - asset: assert/fonts/f5.ttf
+    - family: font6
+      fonts:
+        - asset: assert/fonts/f6.ttf
+    - family: font7
+      fonts:
+        - asset: assert/fonts/f7.ttf
+    - family: font8
+      fonts:
+        - asset: assert/fonts/f8.ttf
+    - family: font9
+      fonts:
+        - asset: assert/fonts/f9.ttf
+    - family: font10
+      fonts:
+        - asset: assert/fonts/f10.ttf
+    - family: font11
+      fonts:
+        - asset: assert/fonts/f11.ttf
+    - family: font12
+      fonts:
+        - asset: assert/fonts/f12.ttf
+    - family: font13
+      fonts:
+        - asset: assert/fonts/f13.ttf
+    - family: font14
+      fonts:
+        - asset: assert/fonts/f14.ttf
+    - family: font15
+      fonts:
+        - asset: assert/fonts/f15.ttf
+    - family: font16
+      fonts:
+        - asset: assert/fonts/f16.ttf
+    - family: font17
+      fonts:
+        - asset: assert/fonts/f17.ttf
+    - family: font18
+      fonts:
+        - asset: assert/fonts/f18.ttf
+    - family: font19
+      fonts:
+        - asset: assert/fonts/f19.ttf
+    - family: font20
+      fonts:
+        - asset: assert/fonts/f20.ttf
+    - family: font21
+      fonts:
+        - asset: assert/fonts/f21.ttf
+    - family: font22
+      fonts:
+        - asset: assert/fonts/f22.ttf
+    - family: font23
+      fonts:
+        - asset: assert/fonts/f23.ttf
+    - family: font24
+      fonts:
+        - asset: assert/fonts/f24.ttf
+    - family: font25
+      fonts:
+        - asset: assert/fonts/f25.ttf
+    - family: font26
+      fonts:
+        - asset: assert/fonts/f26.TTF
+    - family: font27
+      fonts:
+        - asset: assert/fonts/f27.TTF
+    - family: font28
+      fonts:
+        - asset: assert/fonts/f28.ttf
+    - family: font29
+      fonts:
+        - asset: assert/fonts/f29.TTF
+    - family: font30
+      fonts:
+        - asset: assert/fonts/f30.ttf
+    - family: font31
+      fonts:
+        - asset: assert/fonts/f31.ttf
+    - family: font32
+      fonts:
+        - asset: assert/fonts/f32.TTF
+    - family: font33
+      fonts:
+        - asset: assert/fonts/f33.ttf
+    - family: font34
+      fonts:
+        - asset: assert/fonts/f34.otf
+    - family: font35
+      fonts:
+        - asset: assert/fonts/f35.ttf
+    - family: font36
+      fonts:
+        - asset: assert/fonts/f36.ttf
+    - family: font37
+      fonts:
+        - asset: assert/fonts/abeezee.ttf
+    - family: font38
+      fonts:
+        - asset: assert/fonts/aclonica.ttf
+    - family: font39
+      fonts:
+        - asset: assert/fonts/Akronim-Regular.ttf
+    - family: font40
+      fonts:
+        - asset: assert/fonts/AlexBrush-Regular.ttf
+    - family: font41
+      fonts:
+        - asset: assert/fonts/Arizonia-Regular.ttf
+    - family: font42
+      fonts:
+        - asset: assert/fonts/Babylonica-Regular.ttf
+    - family: font43
+      fonts:
+        - asset: assert/fonts/BigShouldersInlineDisplay-VariableFont_wght.ttf
+    - family: font44
+      fonts:
+        - asset: assert/fonts/BigShouldersInlineText-VariableFont_wght.ttf
+    - family: font45
+      fonts:
+        - asset: assert/fonts/BlackAndWhitePicture-Regular.ttf
+    - family: font46
+      fonts:
+        - asset: assert/fonts/BungeeHairline-Regular.ttf
+    - family: font47
+      fonts:
+        - asset: assert/fonts/BungeeInline-Regular.ttf
+    - family: font48
+      fonts:
+        - asset: assert/fonts/CabinSketch-Regular.ttf
+    - family: font49
+      fonts:
+        - asset: assert/fonts/caveat.ttf
+    - family: font50
+      fonts:
+        - asset: assert/fonts/Codystar-Regular.ttf
+    - family: font51
+      fonts:
+        - asset: assert/fonts/Danfo-Regular.ttf
+    - family: font52
+      fonts:
+        - asset: assert/fonts/DawningofaNewDay-Regular.ttf
+    - family: font53
+      fonts:
+        - asset: assert/fonts/Ewert-Regular.ttf
+    - family: font54
+      fonts:
+        - asset: assert/fonts/FascinateInline-Regular.ttf
+    - family: font55
+      fonts:
+        - asset: assert/fonts/FasterOne-Regular.ttf
+    - family: font56
+      fonts:
+        - asset: assert/fonts/FingerPaint-Regular.ttf
+    - family: font57
+      fonts:
+        - asset: assert/fonts/FrederickatheGreat-Regular.ttf
+    - family: font58
+      fonts:
+        - asset: assert/fonts/Frijole-Regular.ttf
+    - family: font59
+      fonts:
+        - asset: assert/fonts/Gluten-Regular.ttf
+    - family: font60
+      fonts:
+        - asset: assert/fonts/GreatVibes-Regular.ttf
+    - family: font61
+      fonts:
+        - asset: assert/fonts/GrenzeGotisch-Regular.ttf
+    - family: font62
+      fonts:
+        - asset: assert/fonts/Gugi-Regular.ttf
+    - family: font63
+      fonts:
+        - asset: assert/fonts/hahmlet.ttf
+    - family: font64
+      fonts:
+        - asset: assert/fonts/Hanalei-Regular.ttf
+    - family: font65
+      fonts:
+        - asset: assert/fonts/HerrVonMuellerhoff-Regular.ttf
+    - family: font66
+      fonts:
+        - asset: assert/fonts/HomemadeApple-Regular.ttf
+    - family: font67
+      fonts:
+        - asset: assert/fonts/Jacquard24Charted-Regular.ttf
+    - family: font68
+      fonts:
+        - asset: assert/fonts/Jersey25Charted-Regular.ttf
+    - family: font69
+      fonts:
+        - asset: assert/fonts/Julee-Regular.ttf
+    - family: font70
+      fonts:
+        - asset: assert/fonts/KaushanScript-Regular.ttf
+    - family: font71
+      fonts:
+        - asset: assert/fonts/KolkerBrush-Regular.ttf
+    - family: font72
+      fonts:
+        - asset: assert/fonts/Kranky-Regular.ttf
+    - family: font73
+      fonts:
+        - asset: assert/fonts/LoveYaLikeASister-Regular.ttf
+    - family: font74
+      fonts:
+        - asset: assert/fonts/Megrim-Regular.ttf
+    - family: font75
+      fonts:
+        - asset: assert/fonts/Miltonian-Regular.ttf
+    - family: font76
+      fonts:
+        - asset: assert/fonts/Molle-Italic.ttf
+    - family: font77
+      fonts:
+        - asset: assert/fonts/Monofett-Regular.ttf
+    - family: font78
+      fonts:
+        - asset: assert/fonts/Monoton-Regular.ttf
+    - family: font79
+      fonts:
+        - asset: assert/fonts/MontserratSubrayada-Regular.ttf
+    - family: font80
+      fonts:
+        - asset: assert/fonts/MooLahLah-Regular.ttf
+    - family: font81
+      fonts:
+        - asset: assert/fonts/MrDafoe-Regular.ttf
+    - family: font82
+      fonts:
+        - asset: assert/fonts/NanumBrushScript-Regular.ttf
+    - family: font83
+      fonts:
+        - asset: assert/fonts/Nosifer-Regular.ttf
+    - family: font84
+      fonts:
+        - asset: assert/fonts/NothingYouCouldDo-Regular.ttf
+    - family: font85
+      fonts:
+        - asset: assert/fonts/notosans.ttf
+    - family: font86
+      fonts:
+        - asset: assert/fonts/nuosuSil.ttf
+    - family: font87
+      fonts:
+        - asset: assert/fonts/PadyakkeExpandedOne-Regular.ttf
+    - family: font88
+      fonts:
+        - asset: assert/fonts/PinyonScript-Regular.ttf
+    - family: font89
+      fonts:
+        - asset: assert/fonts/ProtestRevolution-Regular.ttf
+    - family: font90
+      fonts:
+        - asset: assert/fonts/Qahiri-Regular.ttf
+    - family: font91
+      fonts:
+        - asset: assert/fonts/Qwigley-Regular.ttf
+    - family: font92
+      fonts:
+        - asset: assert/fonts/ReenieBeanie-Regular.ttf
+    - family: font93
+      fonts:
+        - asset: assert/fonts/ReggaeOne-Regular.ttf
+    - family: font94
+      fonts:
+        - asset: assert/fonts/Rubik80sFade-Regular.ttf
+    - family: font95
+      fonts:
+        - asset: assert/fonts/RubikBeastly-Regular.ttf
+    - family: font96
+      fonts:
+        - asset: assert/fonts/RubikBrokenFax-Regular.ttf
+    - family: font97
+      fonts:
+        - asset: assert/fonts/RubikBubbles-Regular.ttf
+    - family: font98
+      fonts:
+        - asset: assert/fonts/RubikDirt-Regular.ttf
+    - family: font99
+      fonts:
+        - asset: assert/fonts/RubikDoodleShadow-Regular.ttf
+    - family: font100
+      fonts:
+        - asset: assert/fonts/RubikDoodleTriangles-Regular.ttf
+    - family: font101
+      fonts:
+        - asset: assert/fonts/RubikGlitchPop-Regular.ttf
+    - family: font102
+      fonts:
+        - asset: assert/fonts/RubikLines-Regular.ttf
+    - family: font103
+      fonts:
+        - asset: assert/fonts/RubikMaps-Regular.ttf
+    - family: font104
+      fonts:
+        - asset: assert/fonts/RubikMarkerHatch-Regular.ttf
+    - family: font105
+      fonts:
+        - asset: assert/fonts/RubikMaze-Regular.ttf
+    - family: font106
+      fonts:
+        - asset: assert/fonts/RubikMicrobe-Regular.ttf
+    - family: font107
+      fonts:
+        - asset: assert/fonts/RubikMoonrocks-Regular.ttf
+    - family: font108
+      fonts:
+        - asset: assert/fonts/RubikPixels-Regular.ttf
+    - family: font109
+      fonts:
+        - asset: assert/fonts/RubikPuddles-Regular.ttf
+    - family: font110
+      fonts:
+        - asset: assert/fonts/RubikScribble-Regular.ttf
+    - family: font111
+      fonts:
+        - asset: assert/fonts/Ruthie-Regular.ttf
+    - family: font112
+      fonts:
+        - asset: assert/fonts/Rye-Regular.ttf
+    - family: font113
+      fonts:
+        - asset: assert/fonts/Sacramento-Regular.ttf
+    - family: font114
+      fonts:
+        - asset: assert/fonts/Sixtyfour-Regular.ttf
+    - family: font115
+      fonts:
+        - asset: assert/fonts/SyneMono-Regular.ttf
+    - family: font116
+      fonts:
+        - asset: assert/fonts/Tangerine-Regular.ttf
+    - family: font117
+      fonts:
+        - asset: assert/fonts/Teko-Regular.ttf
+    - family: font118
+      fonts:
+        - asset: assert/fonts/TiltPrism-Regular.ttf
+    - family: font119
+      fonts:
+        - asset: assert/fonts/TrainOne-Regular.ttf
+    - family: font120
+      fonts:
+        - asset: assert/fonts/VastShadow-Regular.ttf
+    - family: font121
+      fonts:
+        - asset: assert/fonts/Wallpoet-Regular.ttf
+    - family: font122
+      fonts:
+        - asset: assert/fonts/ZenTokyoZoo-Regular.ttf
+    - family: font123
+      fonts:
+        - asset: assert/fonts/Zeyada-Regular.ttf
+
+
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
